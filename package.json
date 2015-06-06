@@ -1,28 +1,28 @@
 {
-	"name": "matrix",
-	"description": "General purpose, low garbage affine matrix library",
-	"version": "1.0.0",
-	"main": "matrix.js",
-	"author": {
-		"name": "Priit Pirita",
-		"email": "atirip@yahoo.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/atirip/matrix.git"
-	},
-	"license": "MIT",
-	"keywords": [
-		"matrix"
-	],
-	"dependencies": {
-	},
-	"devDependencies": {
-		"chai": "^1.5.x",
-		"mocha": "^1.8.x",
-		"mocha-eslint": "^0.1.7"
-	},
-	"scripts": {
-		"test": "mocha"
-	}
+  "name": "matrix",
+  "description": "General purpose, low garbage affine matrix library",
+  "version": "1.0.0",
+  "main": "matrix.js",
+  "author": "Priit Pirita <atirip@yahoo.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atirip/matrix.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "matrix"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.5.x",
+    "mocha": "^1.8.x",
+    "mocha-eslint": "^0.1.7"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/atirip/matrix/issues"
+  },
+  "homepage": "https://github.com/atirip/matrix#readme"
 }
