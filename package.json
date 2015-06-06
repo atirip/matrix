@@ -1,5 +1,5 @@
 {
-  "name": "matrix",
+  "name": "@atirip/matrix",
   "description": "General purpose, low garbage affine matrix library",
   "version": "1.0.0",
   "main": "matrix.js",
