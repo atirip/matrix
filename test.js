@@ -1,13 +1,8 @@
-var expect = require('chai').expect;
-var lint = require('mocha-eslint');
 
-var file = './matrix.js';
-
-var Matrix = require(file);
+import { expect } from 'chai';
+import {Matrix} from './matrix.js';
 
 describe('Matrix', function() {
-
-	lint([file]);
 
 	function equal(a, b) {
 		return Math.abs(a - b) <= 0.2;

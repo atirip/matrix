@@ -1,7 +1,3 @@
-(function() {
-
-	'use strict';
-
 	var pi = Math.PI;
 	var RAD2DEG = 180 / pi;
 	var DEG2RAD = pi / 180;
@@ -260,14 +256,6 @@
 	var tmpM = new Matrix(); // multiply
 	var tmpR = new Matrix(); // rotate
 
-	if (typeof define === 'function' && define.amd) {
-		define(function(){
-			return Matrix;
-		});
-	} else if (typeof module !== 'undefined' && module.exports) {
-		module.exports = Matrix;
-	} else {
-		(this.atirip||(this.atirip={})).Matrix = Matrix;
-	}
 
-}).call(this);
+	export { Matrix };
+

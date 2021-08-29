@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "matrix.js",
   "author": "Priit Pirita <atirip@yahoo.com>",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atirip/matrix.git"
@@ -14,9 +15,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "chai": "^1.5.x",
-    "mocha": "^1.8.x",
-    "mocha-eslint": "^0.1.7"
+    "chai": "*",
+    "mocha": "*"
   },
   "scripts": {
     "test": "mocha"

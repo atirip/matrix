@@ -28,4 +28,5 @@ pids
 logs
 node_modules
 results
-npm-debug.log
+*.log
+yarn.lock
