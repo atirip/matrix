@@ -14,33 +14,12 @@ Or clone this repo.
 
 ## Usage
 
-
-#####Standard browser use
-
-	<script src="matrix.js"></script>
-	<script>
-		var matrix = new atirip.Matrix();
-	</script>
-
-
-- no minfied version is supplied
-- it attaches itself in 'atirip' namespace
-
-#####AMD
-
-	require(["matrix"], function(Matrix) {
-	  // ...
-	});
-	
-	
-#####In nodejs/browserify
-
-	var Matrix = require("@atirip/matrix");
+	import {Matrix} from './matrix.js';
 
 	
 ## API
 
-#####Create matrix:
+##### Create matrix:
 
 	var matrix = new Matrix(); // creates identity matrix
 	var matrix = new Matrix(1, 2, 3, 4, 5, 6);
@@ -49,7 +28,7 @@ Or clone this repo.
 
 You may omit `new`.
 	
-#####Do some simple stuff with it:  
+##### Do some simple stuff with it:  
 As a general principle - `this` Matrix is always changed!
 	
 	matrix.rotate(45); // in degrees
@@ -63,7 +42,7 @@ Complex transform:
 
 Scale, rotate matrix over specified origin, then translate. This is how one implements gesture based zoom/rotate/translate in iOS webapp for example.
 
-#####Static utility functions:
+##### Static utility functions:
 
 	Matrix.transformPoint(matrix, x, y /*, result*/);
 	Matrix.transformPointReverse(matrix, x, y /*, result*/);
@@ -73,7 +52,7 @@ Scale, rotate matrix over specified origin, then translate. This is how one impl
 
 If you pass `result` object, it is used, if not, new is created. That avoids creating garbage in loops. 
 
-##Test
+## Test
 
 	$ npm test
 
