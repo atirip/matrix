@@ -16,7 +16,6 @@ Or clone this repo.
 
 	import {Matrix} from './matrix.js';
 
-	
 ## API
 
 ##### Create matrix:

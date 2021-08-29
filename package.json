@@ -16,7 +16,8 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "mocha-eslint": "*"
   },
   "scripts": {
     "test": "mocha"

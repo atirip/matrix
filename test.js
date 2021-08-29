@@ -1,8 +1,11 @@
 
 import { expect } from 'chai';
 import {Matrix} from './matrix.js';
+import lint from 'mocha-eslint';
 
 describe('Matrix', function() {
+
+	lint(['./matrix.js']);
 
 	function equal(a, b) {
 		return Math.abs(a - b) <= 0.2;
